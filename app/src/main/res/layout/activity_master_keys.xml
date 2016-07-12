@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mohamed.graduationproj.MasterKeys"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:id="@+id/MyLayout">
+
+    <LinearLayout
+        android:layout_weight="28"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:background="#0f3548">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Smart Car Security System"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="22"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:drawableTop="@drawable/lock"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lock"
+            android:id="@+id/bLock"
+            android:textSize="20dp"
+            android:background="@drawable/custombutton3" />
+
+        <Button
+            android:drawableTop="@drawable/unlock"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Unlock"
+            android:id="@+id/bUnlock"
+            android:textSize="20dp"
+            android:background="@drawable/custombutton3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="22"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:drawableTop="@drawable/track"
+           android:layout_weight="50"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="TRACK"
+           android:onClick="startTracking"
+            android:textSize="20dp"
+            android:background="@drawable/custombutton3" />
+
+        <Button
+            android:drawableTop="@drawable/logout"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Logout"
+            android:id="@+id/bLogout"
+            android:textSize="20dp"
+            android:background="@drawable/custombutton3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_weight="28"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000">
+
+        <Button
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/phonecall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Call Help"
+            android:id="@+id/bCallHelp"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custombutton2"
+            android:layout_weight="20" />
+
+        <Button
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/camera"
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Camera"
+            android:id="@+id/button4"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custombutton2" />
+
+        <Button
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/avatar"
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Profile"
+            android:id="@+id/button5"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custombutton2" />
+
+        <Button
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/car"
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Car"
+            android:id="@+id/button6"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custombutton2" />
+
+        <Button
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/settings"
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Setting"
+            android:id="@+id/bSetting"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custombutton2" />
+
+    </LinearLayout>
+
+</LinearLayout>
